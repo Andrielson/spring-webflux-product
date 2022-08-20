@@ -8,7 +8,7 @@ import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 
 @RequiredArgsConstructor
-@Service
+//@Service
 public class DataSetupService implements CommandLineRunner {
     private final ProductService productService;
 
